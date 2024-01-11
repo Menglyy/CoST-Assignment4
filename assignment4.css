@@ -1,0 +1,148 @@
+
+.head {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container-value {
+    /* background-color: whitesmoke; */
+    width: 500px;
+    text-align: center;
+    padding: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container img{
+    width: 600px;
+    height: 300px;
+}
+
+.FOOTER {
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.top {
+    text-align: center;
+}
+
+i {
+    font-size: 30px;
+}
+
+h1 {
+    color: blue;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    color: blue;
+}
+.itc {
+    max-width: 500px;
+    /* margin-bottom: 0px; */
+}
+
+.itc img {
+    width: 600px;
+}
+
+.c-blog {
+    margin-top: 50px;
+}
+
+.container-blog {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-blog1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+table, td, th{
+    border-collapse: collapse;
+    border: 1px solid darkblue;
+}
+
+table{
+    width: 100%;
+    margin: auto;
+}
+
+.head-table th{
+    padding: 10px;
+    font-size: 20px;
+    color: blue;
+}
+
+.lab-img{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lab-img img{
+    width: 600px
+}
+
+.table2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.main tr{
+    font-size:20px ;
+}
+
+ul{
+    list-style:none;
+    background-color: darkblue;
+    padding: 20px;
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+}
+
+ul li a{
+    color: white;
+    padding: 5px 100px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+ul li ul.dropdown li{
+    display: block;
+}
+
+ul li ul.dropdown{
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li a:hover {
+    background: black;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
